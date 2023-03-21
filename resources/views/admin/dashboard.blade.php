@@ -280,8 +280,7 @@
                                         <td>30.60%</td>
                                     </tr>
                                     
-                                    
-                                   
+                            
                                     <tr>
                                         <td class="tx-center">10</td>
                                         <td><a href="">/item/metrical-multi...een_preview/24250418</a>
