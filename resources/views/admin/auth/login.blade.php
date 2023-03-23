@@ -77,14 +77,21 @@
                                     </span>
                                 @enderror
                             </div>
-
+                            <div class="form-group">
+                                
+                                    <div class="custom-control custom-checkbox">
+                                       <input type="checkbox" class="custom-control-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                                       <label class="custom-control-label" for="remember"> {{ __('Remember Me') }}</label>
+                                    </div>
+                                 
+                            </div>
                             <button type="submit"
                                 class="btn btn-lg btn-outline-primary rounded-pill btn-block waves-effect">
                                 {{ __('Sign In') }}
                             </button>
 
                             <div class="pd-y-20 tx-uppercase">or</div>
-                      
+
                             <div class="tx-15 mg-t-20 tx-center">Don't have an account? <a href="aut-signup.html"
                                     class="tx-dark">Create an Account</a></div>
                         </div>

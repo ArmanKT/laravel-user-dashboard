@@ -508,6 +508,7 @@ $(document).ready(function () {
 	// Add Default Class on Body Tag
 	jQuery("body").addClass("page-header-fixed");
 	jQuery("body").addClass("page-sidebar-fixed");
+	jQuery("body").addClass("page-footer-fixed");
 	jQuery("body").addClass("theme-shadow");
 	jQuery(".theme-color li[title|='default']").addClass("active");
 	jQuery(".sidebar-color li[title|='default']").addClass("active");
@@ -517,7 +518,7 @@ $(document).ready(function () {
 	jQuery(".select-theme[value|='light']").prop("checked", true);
 	jQuery("#fixed_header_setting").prop("checked", true);
 	jQuery("#box_shadow_setting").prop("checked", true);
-
+	
 
 });
 
