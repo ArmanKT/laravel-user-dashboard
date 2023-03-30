@@ -34,7 +34,7 @@ Route::post('/login', [Admin\LoginController::class, 'login'])->name('admin.logi
 
 Route::group([
     'prefix' => '/',
-    'middleware' => ['admin']
+    'middleware' => ['auth:admin']
 ], function () {
 
     
